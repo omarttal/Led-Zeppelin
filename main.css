@@ -329,6 +329,10 @@ span:hover {
   * .about-textspan {
     font-size: 2.3rem;
   }
+  * .alotmore {
+  left: 60vw;
+  
+}
 }
 
 .conatiner {
@@ -352,7 +356,7 @@ span:hover {
 
 .members {
   position: relative;
-  background-color: #fafafa;
+  background-color: #ffffff;
 }
 
 ul {
