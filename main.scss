@@ -55,6 +55,9 @@
       }
     }
   }
+  @include respond(phone284) {
+    font-size: 11%;
+  }
 }
 
 .conatiner {
@@ -85,7 +88,6 @@
 
 .members {
   position: relative;
-  background-color: rgb(250, 250, 250);
 }
 ul {
   list-style: none;
@@ -279,4 +281,13 @@ footer {
 .fa-itunes:hover,
 .fa-youtube:hover {
   opacity: 1;
+}
+.alotmore {
+  position: absolute;
+  font-size: 6rem;
+  color: white;
+  left: 90rem;
+  top: 60%;
+
+  text-decoration: none;
 }
