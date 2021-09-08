@@ -1,0 +1,89 @@
+h1 {
+  color: white;
+}
+h2 {
+  color: $primary-color-dark;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  text-align: center;
+
+  font-size: 7rem;
+  margin: 10rem;
+}
+h3 {
+  position: absolute;
+  font-size: 7rem;
+  color: white;
+}
+.header-text {
+  font-size: 8rem;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  letter-spacing: 0.6rem;
+  font-weight: 200;
+}
+.sub-header-text {
+  text-align: left;
+  font-size: 4rem;
+  position: absolute;
+  top: 52%;
+  left: 5%;
+  //   letter-spacing: 4px;
+  font-weight: 200;
+  width: 32%;
+  color: rgb(224, 224, 224);
+}
+.members-text {
+  color: #1f1f1f;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  text-align: center;
+  // padding: 3rem;
+}
+.alotmore {
+  position: absolute;
+  font-size: 6rem;
+  color: white;
+  left: 66vw;
+  top: 60%;
+
+  text-decoration: none;
+}
+span {
+  text-transform: uppercase;
+  color: $primary-color-red;
+  font-size: 5rem;
+}
+span:hover {
+  border-bottom: 2px solid $primary-color-red;
+}
+.about-text {
+  font-size: 3.2rem;
+  color: white;
+  width: 65%;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  font-weight: 300;
+}
+.about-text span {
+  font-size: 3.4rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 500;
+}
+.copyrights {
+  font-size: 1.5rem;
+  float: left;
+  text-decoration: none;
+  color: #fff;
+
+  margin-left: 10rem;
+  margin-top: 4.5rem;
+}
+.test {
+  position: absolute;
+  font-size: 8rem;
+}

@@ -1,0 +1,57 @@
+$primary-color-purple: #271f46;
+$primary-color-pink: #5f2130;
+$primary-color-red: #ee1c25;
+$primary-color-dark: #1f1f1f;
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == tiny-phone {
+    @media only screen and (max-width: 21.25em) {
+      @content;
+    } //600px
+  }
+  @if $breakpoint == small-phone {
+    @media only screen and (max-width: 25em) {
+      @content;
+    } //600px
+  }
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 29.37em) {
+      @content;
+    } //600px
+  }
+  @if $breakpoint == tab-580 {
+    @media only screen and (max-width: 36.25em) {
+      @content;
+    } //900px
+  }
+  @if $breakpoint == tab-670 {
+    @media only screen and (max-width: 41.875em) {
+      @content;
+    } //900px
+  }
+  @if $breakpoint == tab-790 {
+    @media only screen and (max-width: 49.37em) {
+      @content;
+    } //900px
+  }
+  @if $breakpoint == tab-920 {
+    @media only screen and (max-width: 57.5em) {
+      @content;
+    } //900px
+  }
+  @if $breakpoint == tab-port {
+    @media only screen and (max-width: 61.25em) {
+      @content;
+    } //900px
+  }
+  @if $breakpoint == tab-land {
+    @media only screen and (max-width: 70em) {
+      @content;
+    } //1200px
+  }
+  @if $breakpoint == big-desktop {
+    @media only screen and (min-width: 112.5em) {
+      @content;
+    } //1800
+  }
+}

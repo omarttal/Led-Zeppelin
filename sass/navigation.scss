@@ -1,0 +1,86 @@
+.nav {
+  z-index: 2;
+  transition: 1s;
+
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  position: absolute;
+  display: block;
+  width: 100%;
+}
+.nav-sticky {
+  z-index: 2;
+  transition: 1s;
+  background-color: rgba($primary-color-purple, 0.95);
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  position: fixed;
+  display: block;
+  width: 100%;
+}
+.nav-sticky li:not(:first-child) {
+  float: right;
+  padding: 2rem;
+  margin-right: 3rem;
+}
+.nav li {
+  float: right;
+  padding: 2rem;
+}
+nav li {
+  margin-right: 3rem;
+}
+.hidden {
+  display: none;
+}
+.nav li,
+.nav-sticky li {
+  text-decoration: none;
+  transition: 0.3s;
+  // text-transform: uppercase;
+  display: inline-block;
+
+  // margin-top: 3rem;
+  // text-decoration: none;
+  // color: rgb(195, 195, 195);
+  // margin: 2rem;
+  // margin-left: 6rem;
+  // margin-top: 5rem;
+  // transition: 1s;
+}
+
+nav li a {
+  font-size: 2.5rem;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-weight: 300;
+  transition: 0.3s;
+}
+.nav a:hover {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid white;
+}
+.nav-sticky li:hover {
+  background-color: $primary-color-pink;
+}
+.logo {
+  filter: brightness(200%);
+  width: 12rem;
+  float: left;
+  padding: 1.6rem;
+  opacity: 0.95;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+.logo:hover {
+  background-color: rgba(#050505, 0.95);
+  cursor: pointer;
+}

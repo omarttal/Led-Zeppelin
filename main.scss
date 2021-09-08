@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&display=swap");
+
+@import "sass/loading-Page.scss";
+@import "sass/varsAndMixins.scss";
+@import "sass/navigation.scss";
+@import "sass/typography.scss";
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 55%;
+  font-family: "Dosis";
+
+  @include respond(tab-land) {
+    font-size: 48%;
+  }
+  @include respond(tab-port) {
+    font-size: 44%;
+  }
+  @include respond(tab-920) {
+    font-size: 38%;
+  }
+  @include respond(tab-790) {
+    font-size: 33%;
+    .about-text {
+      font-size: 2.8rem;
+      &span {
+        font-size: 3.2rem;
+      }
+    }
+  }
+  @include respond(tab-670) {
+    font-size: 28%;
+  }
+  @include respond(tab-580) {
+    font-size: 23%;
+    .about-text {
+      font-size: 2.5rem;
+      &span {
+        font-size: 3rem;
+      }
+    }
+  }
+  @include respond(phone) {
+    font-size: 19%;
+  }
+  @include respond(small-phone) {
+    font-size: 17%;
+  }
+  @include respond(tiny-phone) {
+    font-size: 14%;
+    .about-text {
+      font-size: 2.3rem;
+      &span {
+        font-size: 2.3rem;
+      }
+    }
+  }
+}
+
+.conatiner {
+  height: 80rem;
+  //   width: 96%;
+  //   margin: 2%;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(95, 33, 48, 0.3),
+      rgba(39, 31, 70, 0.3)
+    ),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0), $primary-color-purple),
+    url("imgs/img-header-min.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.animate__animated.animate__fadeInTopRight {
+  --animate-duration: 1.5s;
+}
+.animate__animated.animate__zoomInDown {
+  --animate-duration: 2.3s;
+}
+
+.members {
+  position: relative;
+  background-color: rgb(250, 250, 250);
+}
+ul {
+  list-style: none;
+}
+.imgs-container ul {
+  width: max-content;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+.imgs-container ul li {
+  height: 100%;
+  display: inline-block;
+}
+
+.imgs-container ul li {
+  display: inline-block;
+  height: 35rem;
+  width: 25rem;
+
+  border-radius: 5%;
+  box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.589);
+  transition: 1s ease;
+  // margin-top: 5rem;
+  // margin-bottom: 5rem;
+  filter: brightness(135%);
+  filter: contrast(125%);
+}
+.imgs-container ul li:not(:last-child) {
+  margin-right: 10rem;
+}
+.imgs-container ul li:hover {
+  // filter: blur(10px);
+  transform: rotateY(-180deg);
+}
+
+.utility-border::after {
+  border-radius: 20%;
+
+  display: block;
+  content: "";
+  border-bottom: 0.65rem solid lighten($primary-color-pink, 15%);
+  width: 18rem;
+  height: 1.5rem;
+  margin: 0 auto;
+}
+.img1 {
+  background-image: linear-gradient(
+      to left top,
+      rgba($primary-color-pink, 0.99),
+      rgba($primary-color-purple, 0.6),
+      transparent 85%
+    ),
+    url(imgs/robertPlant-min.jpg);
+  background-size: cover;
+}
+// ul:hover {
+//   left: -15px;
+//   right: -15px;
+//   top: -15px;
+//   bottom: -15px;
+//   /* other styles */
+//   border: 10px solid black;
+
+.img2 {
+  background-image: linear-gradient(
+      to left top,
+      rgba($primary-color-pink, 0.99),
+      rgba($primary-color-purple, 0.6),
+      transparent 90%
+    ),
+    url(imgs/guitarist-min.png);
+  background-size: cover;
+}
+.img3 {
+  background-image: linear-gradient(
+      to left top,
+      rgba($primary-color-pink, 0.99),
+      rgba($primary-color-purple, 0.6),
+      transparent 90%
+    ),
+    url("imgs/drummer-min.jpg");
+  background-size: cover;
+}
+
+// .abs {
+//   position: absolute;
+// }
+.albums {
+  position: relative;
+}
+.mothership {
+  height: 50rem;
+  filter: contrast(95%);
+}
+.led-img2 {
+  width: 25rem;
+  height: 25rem;
+  position: absolute;
+  filter: contrast(96%);
+}
+.led-img3 {
+  filter: contrast(98%);
+  width: 25rem;
+  height: 25rem;
+  top: 64.5%;
+  position: absolute;
+}
+.img-container {
+  // background-image: linear-gradient(
+  //   to right bottom,
+  //   #030303 55%,
+  //   darken(red, 20%) 80%
+  // );
+  height: 50rem;
+  background-color: #080808;
+  background-image: linear-gradient(
+      to left top,
+      rgba(238, 28, 39, 0.3),
+      rgba($primary-color-purple, 0.5),
+      transparent 50%
+    ),
+    url("imgs/guitar8-min.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+// .img-container img {
+//   transition: 0.3s;
+// }
+.img-container img:hover {
+  filter: contrast(110%);
+  cursor: pointer;
+}
+.about-img {
+  height: 60rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(95, 33, 48, 0.3),
+      rgba(39, 31, 70, 0.3)
+    ),
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("imgs/about.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px);
+}
+.container2 {
+  background-color: black;
+  border: 2px solid black;
+  position: relative;
+}
+
+// #span1 {
+//   font-size: 5rem;
+// }
+
+footer {
+  // @include clearfix();
+  margin-top: 10rem;
+  height: 10rem;
+  background-color: darken($primary-color-dark, 5%);
+  position: relative;
+}
+
+.social {
+  float: right;
+  width: max-content;
+  margin-top: 3rem;
+  margin-right: 3rem;
+}
+.fa-spotify {
+  font-size: 3rem;
+  color: #1db954;
+  opacity: 0.4;
+}
+.fa-itunes {
+  font-size: 3rem;
+  color: #cc45f2;
+  opacity: 0.4;
+}
+.fa-youtube {
+  font-size: 3rem;
+  color: #ff0000;
+  opacity: 0.4;
+}
+.social li {
+  display: inline-block;
+  margin: 1rem;
+}
+.fa-spotify:hover,
+.fa-itunes:hover,
+.fa-youtube:hover {
+  opacity: 1;
+}
