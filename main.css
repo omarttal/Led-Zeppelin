@@ -201,15 +201,6 @@ h3 {
   text-align: center;
 }
 
-.alotmore {
-  position: absolute;
-  font-size: 6rem;
-  color: white;
-  left: 66vw;
-  top: 60%;
-  text-decoration: none;
-}
-
 span {
   text-transform: uppercase;
   color: #ee1c25;
@@ -329,10 +320,6 @@ span:hover {
   * .about-textspan {
     font-size: 2.3rem;
   }
-  * .alotmore {
-  left: 60vw;
-  
-}
 }
 
 .conatiner {
@@ -356,7 +343,6 @@ span:hover {
 
 .members {
   position: relative;
-  background-color: #ffffff;
 }
 
 ul {
@@ -530,5 +516,14 @@ footer {
 .fa-itunes:hover,
 .fa-youtube:hover {
   opacity: 1;
+}
+
+.alotmore {
+  position: absolute;
+  font-size: 6rem;
+  color: white;
+  left: 90rem;
+  top: 60%;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */
