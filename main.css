@@ -201,6 +201,15 @@ h3 {
   text-align: center;
 }
 
+.alotmore {
+  position: absolute;
+  font-size: 6rem;
+  color: white;
+  left: 90rem;
+  top: 60%;
+  text-decoration: none;
+}
+
 span {
   text-transform: uppercase;
   color: #ee1c25;
