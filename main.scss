@@ -54,9 +54,12 @@
         font-size: 2.3rem;
       }
     }
-  }
-  @include respond(phone284) {
-    font-size: 11%;
+    .alotmore {
+      font-size: 4vw !important;
+    }
+    .alotmore span {
+      font-size: 4vw;
+    }
   }
 }
 
@@ -281,13 +284,4 @@ footer {
 .fa-itunes:hover,
 .fa-youtube:hover {
   opacity: 1;
-}
-.alotmore {
-  position: absolute;
-  font-size: 6rem;
-  color: white;
-  left: 90rem;
-  top: 60%;
-
-  text-decoration: none;
 }
