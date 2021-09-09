@@ -320,6 +320,12 @@ span:hover {
   * .about-textspan {
     font-size: 2.3rem;
   }
+  * .alotmore {
+    font-size: 4vw !important;
+  }
+  * .alotmore span {
+    font-size: 4vw;
+  }
 }
 
 .conatiner {
@@ -516,14 +522,5 @@ footer {
 .fa-itunes:hover,
 .fa-youtube:hover {
   opacity: 1;
-}
-
-.alotmore {
-  position: absolute;
-  font-size: 6rem;
-  color: white;
-  left: 90rem;
-  top: 60%;
-  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */
