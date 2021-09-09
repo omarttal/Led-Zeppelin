@@ -335,6 +335,18 @@ span:hover {
   * .alotmore span {
     font-size: 4vw;
   }
+  * .about-text {
+    font-size: 3.4rem;
+    color: white;
+    width: 65%;
+    letter-spacing: 1px;
+  }
+  * .about-text span {
+    font-size: 3.4rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-weight: 500;
+  }
 }
 
 .conatiner {
